@@ -1,0 +1,200 @@
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Cinzel', serif;
+    color: black;
+
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background: rgb(243, 240, 240);
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+header .logo {
+    position: relative;
+    max-width: 70px;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 40px;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+
+
+}
+header li:hover{
+    color: rgb(144, 150, 144);
+    
+
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .textbox {
+    position: relative;
+    max-width: 600px;
+}
+
+.content .textbox h2 {
+
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+
+.content .textbox h2 span {
+    color: green;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.content .textbox p {
+    color: #333;
+}
+
+.content .textbox a {
+    display: inline-block;
+    background: green;
+    text-decoration: none;
+    border-radius: 40px;
+    padding: 10px;
+    margin-top: 40px;
+    color: white;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.content .imgbox{
+    width: 700px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    margin-top: 40px;
+}
+.content .imgbox img{
+    max-width: 440px;
+}
+.thumb {
+    
+   position: absolute;
+   left: 50%;
+   bottom: 20px;
+   display: flex;
+   transform: translateX(-50%);
+
+}
+.thumb img{
+    max-width: 200px;
+}
+.thumb li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.thumb li:hover{
+    transform: translateY(-15px);
+}
+.thumb li img{
+    max-width: 90px;
+}
+.sci img{
+    max-width: 40px;
+}
+.sci{
+    position: absolute;
+    top: 375px;
+    right: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sci li{
+    list-style: none;
+}
+.sci li a {
+    display: inline-block;
+    margin: 5px 0;
+    transform: scale(0.6);
+    filter: invert(1);
+}
+.circle{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 80%;
+    width: 100%;
+    height: 100%;
+    background: rgb(3, 153, 3);
+    clip-path: circle(600px at right 800px);
+}
+td{
+    margin-top: 10%;
+    width: 100%;
+    position: relative;
+}
+footer {
+    background-color:rgb(255, 255, 255);
+    color:  #333;
+    padding: 20px 0;
+    text-align: center;
+   
+    bottom: 0;
+    width: 100%;
+    /* z-index: 999; */
+}
+/* CSS to style links inside the footer */
+footer a {
+    color: #525252;
+    text-decoration: none;
+    padding: 0 10px;
+}
+/* Style for the hover effect on links */
+footer a:hover {
+    text-decoration: underline;
+}
+
+middle{
+    margin-top: 20px;
+}
